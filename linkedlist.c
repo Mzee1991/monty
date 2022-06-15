@@ -12,8 +12,8 @@
  */
 stack_t *add_node(stack_t **stack, const int n)
 {
-	stack_t *new = NULL
-	
+	stack_t *new;
+
 	if (stack == NULL)
 		return (NULL);
 	new = malloc(sizeof(stack_t));
