@@ -3,9 +3,8 @@
 
 monty
 
-    This directory contains all the tasks of the project "C - Stacks, Queues - LIFO, FIFO" at Holberton School
+    This directory contains all the tasks of the project "C - Stacks, Queues - LIFO, FIFO" at ALX /Holberton School
 
-GitHub repo size GitHub last commit GitHub contributors Luis Miguel Vargas Robinson Montes
 Table of Contents
 
     Description
