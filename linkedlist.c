@@ -12,7 +12,7 @@
  */
 stack_t *add_node(stack_t **stack, const int n)
 {
-	stack_t *new;
+	stack_t *new = NULL
 	
 	if (stack == NULL)
 		return (NULL);
