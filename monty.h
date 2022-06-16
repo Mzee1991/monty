@@ -20,8 +20,8 @@
  */
 typedef struct var_s
 {
-int len_queue;
-size_t len_stack;
+	int len_queue;
+	size_t len_stack;
 } var_t;
 
 /* global flag contains queue and stack length */
@@ -38,10 +38,11 @@ extern var_t var;
  */
 typedef struct stack_s
 {
-int n;
-struct stack_s *prev;
-struct stack_s *next;
+	int n;
+	struct stack_s *prev;
+	struct stack_s *next;
 } stack_t;
+
 /**
  * struct instruction_s - opcode and its function
  * @opcode: the opcode
@@ -52,8 +53,8 @@ struct stack_s *next;
  */
 typedef struct instruction_s
 {
-char *opcode;
-void (*f)(stack_t **stack, unsigned int line_number);
+	char *opcode;
+	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
 stack_t *add_node(stack_t **stack, const int n);
